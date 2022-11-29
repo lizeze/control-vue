@@ -1,0 +1,23 @@
+{
+  "id": "3797934",
+  "name": "control",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7461691",
+      "name": "添加设备",
+      "font_class": "add",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "11239052",
+      "name": "刷新",
+      "font_class": "shuaxin",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    }
+  ]
+}

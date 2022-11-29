@@ -1,11 +1,19 @@
 <script setup lang="ts">
-import Hello from './components/Hello.vue'
+ import Home from './pages/Home.vue'
 
 window.electron.ipcRenderer.send('message', 'Hello from App.vue!');
 </script>
 
 <template>
   <div id="app">
-    <Hello/>
+  <Home></Home>
   </div>
 </template>
+
+<style>
+.icon {
+       width: 2em; height: 2em;
+       vertical-align: -0.15em;
+       fill: currentColor;
+       overflow: hidden;
+    }</style>
